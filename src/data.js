@@ -9,10 +9,9 @@ import food from "./images/outdoor-dining-1846137_640.jpg";
 import sophie from "./images/photographer-407068_640.jpg";
 import kasa from "./images/wall-416060_640.jpg";
 
-// Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
-// If you change the import names above then you need to change the export names below
+
 export { HeroLight as Light };
 export { HeroDark as Dark };
 
