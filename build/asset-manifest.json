@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c3ac1b78.css",
+    "main.js": "/Portfolio/static/js/main.f2d23f12.js",
+    "static/media/hero-dark.jpg": "/Portfolio/static/media/hero-dark.37f2556d620821979e99.jpg",
+    "static/media/hero-light.jpg": "/Portfolio/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "static/media/code-1076536_640.jpg": "/Portfolio/static/media/code-1076536_640.6c2a8ae45f2151d0f104.jpg",
+    "static/media/outdoor-dining-1846137_640.jpg": "/Portfolio/static/media/outdoor-dining-1846137_640.dc9fe1d04102f3dd0149.jpg",
+    "static/media/photographer-407068_640.jpg": "/Portfolio/static/media/photographer-407068_640.f35a4515900b3e1ee66a.jpg",
+    "static/media/money-2724241_640.jpg": "/Portfolio/static/media/money-2724241_640.0fcd42a6685561cf8eb4.jpg",
+    "static/media/wall-416060_640.jpg": "/Portfolio/static/media/wall-416060_640.9e30f050cb8dc73069f7.jpg",
+    "static/media/children-593313_640.jpg": "/Portfolio/static/media/children-593313_640.b27b396beea72069471f.jpg",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/media/moi.jpg": "/Portfolio/static/media/moi.7e1743bcefa0964bacae.jpg",
+    "static/media/GH.svg": "/Portfolio/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/defaultNavLogo.svg": "/Portfolio/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.c3ac1b78.css.map": "/Portfolio/static/css/main.c3ac1b78.css.map",
+    "main.f2d23f12.js.map": "/Portfolio/static/js/main.f2d23f12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3ac1b78.css",
+    "static/js/main.f2d23f12.js"
+  ]
+}
