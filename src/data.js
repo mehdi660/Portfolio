@@ -72,7 +72,7 @@ export const skillData = [
   },
 ];
 
-export const resume = "https://publuu.com/flip-book/277003/647968";
+export const resume = "https://pdf.ac/288nm2";
 
 export const filteredProjects = [
   "ArgentBankProject",
