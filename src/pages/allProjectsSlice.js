@@ -36,10 +36,12 @@ export const allProjectsSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(fetchGitHubReops.pending, (state) => {
+        /*état d'attente de l'action*/
         state.isLoading = true;
         state.error = "";
       })
       .addCase(fetchGitHubReops.fulfilled, (state, action) => {
+        /*action est accomplie avec succes*/
         state.isLoading = false;
         state.data = action.payload;
         projectCardImages.forEach(function (element) {
@@ -51,6 +53,7 @@ export const allProjectsSlice = createSlice({
         });
       })
       .addCase(fetchGitHubReops.rejected, (state, action) => {
+        /*l'action echoue*/
         state.isLoading = false;
         state.error = action.payload;
         console.log(state.error);

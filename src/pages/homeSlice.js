@@ -36,14 +36,17 @@ export const homeSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(fetchGitHubInfo.pending, (state) => {
+        /*état d'attente de l'action*/
         state.isLoading = true;
         state.error = "";
       })
       .addCase(fetchGitHubInfo.fulfilled, (state, action) => {
+        /*action est accomplie avec succes*/
         state.isLoading = false;
         state.data = action.payload;
       })
       .addCase(fetchGitHubInfo.rejected, (state, action) => {
+        /*l'action echoue*/
         state.isLoading = false;
         state.error = action.payload;
         console.log(state.error);

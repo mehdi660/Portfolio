@@ -80,6 +80,7 @@ export default function NavBar({ Logo }) {
   const { theme, isExpanded, closeExpanded, toggleExpanded } = useAppContext();
   const { pathname } = useLocation();
   const navLinks = {
+    // Gerer les routes entre differentes pages et lien interne
     routes: [
       { id: "1R", name: "Home", route: "/" },
       { id: "2R", name: "All Projects", route: "/All-Projects" },

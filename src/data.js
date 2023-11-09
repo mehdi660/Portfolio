@@ -1,7 +1,6 @@
 import { Icon } from "@iconify/react";
 
 import moi from "./images/moi.jpg";
-
 import quizz from "./images/children-593313_640.jpg";
 import debog from "./images/code-1076536_640.jpg";
 import argent from "./images/money-2724241_640.jpg";
